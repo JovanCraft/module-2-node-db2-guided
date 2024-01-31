@@ -13,7 +13,7 @@ function getAll() {
 }
 
 function getById(id) {
-  return db('fruits').where('id', id).first();
+  return db('fruits').where('fruit_id', id).first();
 }
 
 async function create(fruit) {
