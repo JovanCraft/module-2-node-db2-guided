@@ -11,3 +11,9 @@ exports.seed = async function(knex) {
     {fruit_name: 'pear', avg_weight_oz: 10.2, delicious: 0, color: 'green'},
   ]);//we NEVER write IDs. We let the database do it FOR US
 };
+
+
+
+
+
+
